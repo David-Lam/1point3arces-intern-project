@@ -4,9 +4,6 @@ from utility import jsonResponse
 
 
 class Logout(Resource):
-    @login_required
-    def get(self):
-        return self.post()
 
     @login_required
     def post(self):

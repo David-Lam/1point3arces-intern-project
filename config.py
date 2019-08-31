@@ -1,3 +1,6 @@
+import datetime
+
+REMEMBER_COOKIE_DURATION = datetime.timedelta(days=1)
 DEBUG = True
 SQLALCHEMY_DATABASE_URI = "mysql+driver://username:password@server/database"
 SECRET_KEY = "secretKey"

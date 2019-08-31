@@ -20,4 +20,3 @@ ma = Marshmallow(app)
 loginManger = LoginManager(app)
 mail = Mail(app)
 
-
