@@ -25,7 +25,7 @@ sample error response (User already logged in):
 
 ## Register with username, password, and email 
 sample http request: `127.0.0.1:5000/register`  
-params: `username=username&password=password&&email=testemail@gmail.com`  
+params: `username=username&password=password&email=testemail@gmail.com`  
 method: `POST`
 
 sample response:
